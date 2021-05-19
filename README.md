@@ -21,15 +21,15 @@ public class Jala {
 public static void main(String[] args) 
 	{
 	int arr[] = {10,70,30,90,20,20,30,40,70,50};
-    Arrays.sort(arr);
-    int length = arr.length;  
-    Remove obj = new Remove();
-    length = obj.remove(arr, length);
-    for (int i=0; i<length; i++)
-    { 
-       System.out.print(arr[i]);
+    	Arrays.sort(arr);
+    	int length = arr.length;  
+    	Remove obj = new Remove();
+    	length = obj.remove(arr, length);
+    	for (int i=0; i<length; i++)
+    	{ 
+    		System.out.print(arr[i]);
 
-	}
+    	}
 	
     }
 }
